@@ -154,6 +154,7 @@ footer nav a {
 }
 
 .nav_row {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -171,14 +172,9 @@ footer nav a {
 }
 
 .nav_col ul li {
-    margin: 2rem;
+    margin-left: 6rem;
 }
 
-/* Images */
-
-.nav_col img {
-    margin-bottom: 1rem;
-}
 
 .landing-page {
     margin-bottom: 2rem;
@@ -190,7 +186,7 @@ footer nav a {
     margin-bottom: 1rem;
 }
 
-/* Boxes   */
+/* Boxes */
 
 .box-1 {
     background: teal;
@@ -271,6 +267,8 @@ flex-direction: column;
 }
 
 div.nav_row {
+    display: flex;
+    align-items: center;
     margin-right: 1rem;
 }
 
@@ -295,6 +293,9 @@ div.footer_col {
     margin-right: 2rem;
 }
 
+.nav_col_logo {
+    margin-bottom: 1rem;
+}
 /*  Misc  */
 
 button {
@@ -320,8 +321,3 @@ h2 {
     margin-top: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      
-    }
-  }
