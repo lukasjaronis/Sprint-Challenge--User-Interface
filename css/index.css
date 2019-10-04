@@ -230,3 +230,28 @@ a {
 a:hover {
 font-weight: 900;
 }
+
+.about_wrapper {
+    margin: auto;
+    max-width: 60rem;
+}
+
+.about_top_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_about_row {
+    display: flex;
+    flex-direction: column;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+
+.content_about_col {
+    width: 50%;
+    margin: 1rem;
+    padding: 3rem;
+}
