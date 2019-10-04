@@ -221,3 +221,12 @@ footer nav a {
 .box-10 {
     background: dodgerblue;
 }
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+a:hover {
+font-weight: 900;
+}
