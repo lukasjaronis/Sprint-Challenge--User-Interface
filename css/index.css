@@ -185,8 +185,8 @@ footer nav a {
 }
 
 .about_top_col img {
-    max-width: 800px;
-    max-height: 153px;
+    width: 960px;
+    height: auto;
     margin-bottom: 1rem;
 }
 
@@ -272,6 +272,10 @@ font-weight: 900;
 .footer_row {
 display: flex;
 flex-direction: column;
+}
+
+div.nav_row {
+    margin-right: 1rem;
 }
 
 /*  Col */
