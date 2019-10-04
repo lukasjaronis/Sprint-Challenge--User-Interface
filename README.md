@@ -32,15 +32,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? 
+
+When you're using semantic HTML you're giving meaning to the page, and by that I mean you're creating paragraphs with <p> or saying this part of your code is a footer by doing <footer>. It's NOT about appearance, such as <hr>
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Display: Block gets it's own line and fills up the horizontal space. You can add margins and padding to all sides of the block element.  <div> is a block element. 
+Display: Inline does not start on a new line. They sort of sit beside the content element. <span> is an inline element and you cannot add height, margins, or padding to it, however... since they can go inside a block element you can adjust these properties from the block element. 
+
 3. What are the 4 areas of the box model?
+
+content, padding, border, margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align flex items use the cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+branching is a powerful tool, where any company using git will have hundreds and maybe thousands of them. everybody can work on the same project at once, and merge features together in the end. git gives a lot of control to getting a job done within a team pretty much. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
