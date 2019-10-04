@@ -261,10 +261,6 @@ font-weight: 900;
     align-items: center;
 }
 
-.content_about_col {
-    margin: 1rem;
-    padding: 1rem;
-}
 
 
 /* Rows */
@@ -279,6 +275,11 @@ div.nav_row {
 }
 
 /*  Col */
+
+.content_about_col {
+    margin: 1rem;
+    padding: 1rem;
+}
 
 .footer_col {
     margin: 1rem;
@@ -311,6 +312,16 @@ hr {
     border-style: none none dotted;
 }
 
+.about_wrapper hr {
+    margin-top: 2rem;
+}
+
 h2 {
     margin-top: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+  }
